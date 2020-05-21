@@ -1,0 +1,51 @@
+@font-face {
+  font-family: Neue Haas Unica;
+  src: url(assets/Neue-Haas-Unica.woff);
+}
+
+body {
+  background-image: url("assets/wallpaper.jpeg");
+  background-size: cover;
+  font-family: Neue Haas Unica;
+}
+
+#logo {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 80px;
+}
+
+h1 {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 60px;
+}
+
+#computer {
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+.sound {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.video-asset {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 500px;
+}
+
+#the-video {
+  position: absolute;
+  left: 33px;
+  top: -37px;
+}
